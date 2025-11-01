@@ -103,15 +103,10 @@ El análisis genera:
 
 ---
 
-## Contacto
-
-Para preguntas o acceso a los datos: [tu email o contacto]
-
----
-
 ## Notas técnicas
 
 - Las imágenes térmicas están codificadas (0-255) y se decodifican automáticamente
 - Se usan First Order Statistics (FOS) para extraer características
 - El modelo clasifica en 2 categorías: desarrollo bajo (0) vs alto (1)
+
 - Basado en umbral: root_scale < 3 = Clase 0, root_scale ≥ 3 = Clase 1
