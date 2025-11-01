@@ -84,7 +84,7 @@ Ejecuta las celdas del notebook en orden de arriba hacia abajo.
 
 ---
 
-## Archivos del proyecto
+##  Archivos del proyecto
 
 - **`funciones_romina.py`**: Todas las funciones para procesar imágenes y extraer características
 - **`analisis_romina.ipynb`**: Notebook principal con el análisis completo
@@ -110,3 +110,4 @@ El análisis genera:
 - El modelo clasifica en 2 categorías: desarrollo bajo (0) vs alto (1)
 
 - Basado en umbral: root_scale < 3 = Clase 0, root_scale ≥ 3 = Clase 1
+
